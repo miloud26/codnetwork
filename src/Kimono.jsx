@@ -36,7 +36,6 @@ function Kimono() {
         justifyContent={"space-between"}
         alignItems={"start"}
         flexWrap={"wrap-reverse"}
-        flexDirection={"row-reverse"}
         sx={{
           "@media(max-width:1600px)": {
             padding: "12px 180px",
@@ -52,27 +51,6 @@ function Kimono() {
           },
         }}
       >
-        <Box
-          sx={{
-            position: "sticky",
-            top: "50px",
-            width: "49%",
-            "@media(max-width:900px)": {
-              width: "100%",
-              marginBottom: "20px",
-              position: "unset",
-            },
-          }}
-        >
-          <Box marginBottom={"15px"}>
-            <img
-              id="mainImg"
-              style={{ width: "100%", objectFit: "cover", height: "100%" }}
-              src={themImg}
-              alt="img"
-            />
-          </Box>
-        </Box>
         <Box
           sx={{
             width: "49%",
@@ -159,6 +137,27 @@ function Kimono() {
                 style={{ margin: "8px 0", width: "100%", objectFit: "cover" }}
               />
             </Box>
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            position: "sticky",
+            top: "50px",
+            width: "49%",
+            "@media(max-width:900px)": {
+              width: "100%",
+              marginBottom: "20px",
+              position: "unset",
+            },
+          }}
+        >
+          <Box marginBottom={"15px"}>
+            <img
+              id="mainImg"
+              style={{ width: "100%", objectFit: "cover", height: "100%" }}
+              src={themImg}
+              alt="img"
+            />
           </Box>
         </Box>
       </Box>
