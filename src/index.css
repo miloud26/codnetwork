@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  font-family: "Vazirmatn", sans-serif;
+  letter-spacing: 1.5px;
+}
+img {
+  border-radius: 10px;
+}
+.valid {
+  border: 2px blue solid !important;
+}
