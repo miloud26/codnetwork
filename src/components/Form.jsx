@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 
 import {
   Box,
@@ -103,10 +103,6 @@ export default function Form({ id }) {
   const [city, setCity] = useState("");
   const [zipCode, setZipCode] = useState("");
   const [quantity, setQuantity] = useState(1);
-  const [modelColr, setModelColr] = useState("");
-  const [modelSize, setModelSize] = useState("");
-  const [fakeBtn, setFakeBtn] = useState(false);
-  const [correctNumber, setCorrectNumber] = useState(false);
 
   const { price, delevery } = data.filter((item) => item.id === id)[0];
 
