@@ -36,6 +36,7 @@ function Kimono() {
         justifyContent={"space-between"}
         alignItems={"start"}
         flexWrap={"wrap-reverse"}
+        flexDirection={"row-reverse"}
         sx={{
           "@media(max-width:1600px)": {
             padding: "12px 180px",
